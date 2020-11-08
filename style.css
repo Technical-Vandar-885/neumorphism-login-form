@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: #131419;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 45px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.08),
+5px 5px 15px rgba(0, 0, 0, 0.8);
+    height: 80vh;
+    width: 25vw;
+    background: #131419;
+}
+.logo{
+    text-align: center;
+    margin-top: 20px;;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px #32343b,
+                -5px -5px 10px #3a353b;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.inputs{
+    text-align: center;
+    margin-top: 20px;
+}
+input{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 15px 12px;
+    border-radius: 48px;
+    height: 40px;
+    background: #131419;
+    box-shadow: inset 5px 5px 10px #4b4d53,
+                inset -5px -5px 10px #44464e;
+    width: 295px;
+    color: aqua;
+}
+.password img{
+    height: 22px;
+    visibility: hidden;
+    width: 22px;
+    position: fixed;
+    margin-top: 23px;
+    margin-left: -45px;
+}
+.button{
+    text-align: center;
+
+}
+button{
+    cursor: pointer;
+    margin: 10px;
+    height: 40px;
+    width: 270px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 22px;
+    background-color: #131419;
+    color: white;
+    box-shadow: 5px 5px 10px #45464d,
+                -5px -5px 10px #232736;
+}
+button:hover{
+    color: aqua;
+    background-color: #090d46;
+}
+.forpass{
+    margin-top: 25px;
+    text-align: right;
+}
+.forpass a{
+    font-weight: 750;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+    color: aqua;
+
+}
+.signup{
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.signup a{
+    color: aqua;
+    font-weight: 750;
+    margin: 5px;
+    text-decoration: none;
+}
+.signup a:hover{
+    border-bottom: 2px springgreen solid;
+}
+
+::placeholder{
+    color: rgb(65, 156, 156);
+}
